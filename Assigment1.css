@@ -1,0 +1,245 @@
+/*************************************************************
+ * TABLE OF CONTENTS
+ * =================
+ * 1. GENERAL STYLES
+ * -- 1a. Common classes
+ * 2. HEADER STYLES
+ * 3. MENU STYLES
+ * -- 3a. Main navigation
+ * -- 3b. Sub navigation
+ * 4. FOOTER STYLES
+ */
+
+
+/* 1. GENERAL STYLES */
+ html {
+   box-sizing:border-box;
+ }
+ *, *::before, *::after {
+   box-sizing:inherit;
+ }
+ body {
+   font:normal 1em/1.2 'Times New Roman',serif;
+   margin:0 auto;
+ }
+ h1, h2, h3 {
+   font-family: 'Arial', sans-serif;
+ }
+ h1 {
+   margin-top:0;
+ }
+ /* Style links */
+ a, a:link {
+   color:gray;
+ }
+ a:visited {
+   color:black;
+ }
+ a:hover {
+   color:#555;
+ }
+ a:active {
+   color:cyan;
+ }
+ /* -- 1a. Common classes */
+
+ /* use the hidden class for items that need to be hidden
+  * visually but are still available to screen readers
+  */
+ .hidden {
+   position:absolute;
+   left:-10000px;
+   width:1px;
+   height:1px;
+ }
+ .image-left {
+   float:left;
+   margin:1em;
+ }
+ .page-container {
+   max-width:960px;
+   margin: auto;
+ }
+ .right{
+   float:right;
+ }
+ .left{
+   float:left;
+ }
+ .bottom-line{
+   border-bottom:1px solid #2860d4;
+ }
+ .break{
+   border-bottom:1px solid grey;
+   padding-bottom:1em;
+ }
+ .comment {
+   width: 100%;
+   padding: 30px 20px;
+   margin: 1px 0;
+   box-sizing: border-box;
+}
+.button{
+    text-align: center;
+    background-color:#e7e7e7;
+    color:black;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 20%;
+    padding:0.5em;
+}
+.button:hover{
+  color:white;
+}
+
+ /* 2. HEADER STYLES */
+ #header {
+   clear : both;
+   margin-bottom:6em;
+   padding-left:1em;
+ }
+ #header > .page-container {
+   padding:0.5em;
+   padding-top:2.5em;
+   padding-bottom:0;
+ }
+ #header a {
+   text-decoration:none;
+ }
+ #site-name {
+   font-family: Helvetica,arial,sans-serif;
+   font-size:4em;
+   font-weight:bold;
+   letter-spacing:1px;
+ }
+ #header h3{
+   color:gray;
+   line-height: 0.5em;
+   margin-left:1em;
+ }
+
+
+ /* 3. MENU STYLES */
+
+ /* -- 3a. Main navigation */
+ .menu {
+   padding:0;
+   margin:0;
+ }
+ #main-menu li {
+   display:inline-block;
+   list-style-type:none;
+   margin-right:2em;
+   vertical-align:top;
+   position:relative;
+   padding:0.5em 0;
+   font-weight:bold;
+ }
+
+/* -- 3b. Sub navigation */
+ #sub-menu li {
+   display:inline-block;
+   list-style-type:none;
+   margin-right:2em;
+   vertical-align:top;
+   position:relative;
+   padding:0.5em 0;
+   font-weight:bold;
+ }
+ /* 81% : 18%*/
+ /* want a 1% margin between each column */
+ /* 65% : 1% : 33% */
+ #main {
+   width:81%;
+   display:inline-block;
+   margin-bottom:1em;
+   padding:1em;
+
+   font-style: normal;
+   line-height: 1.61em;
+   font-size: 17px;
+ }
+
+ #main h1{
+   padding-top : 1.5em;
+   font-size: 37px;
+ }
+
+
+ #about {
+   border:1px solid  #aaa;
+   color:#333;
+   font-style:italic;
+   font-size:0.9em;
+   padding :0.7em;
+   line-height: 30%;
+ }
+
+
+ #sidebar{
+   width:18%;
+   float:right;
+   margin: 0;
+   padding: 0;
+
+   border-bottom: 1px solid grey;
+
+ }
+ #sidebar h2{
+   margin:0;
+   padding-top:0.5em;
+   padding-left:0.5em;
+   padding-bottom:1em;
+   display:grid;
+ }
+ #sidebar div{
+   clear:both;
+   width:100%;
+   display:block;
+   margin:auto;
+   margin-bottom:1em;
+ }
+ #sidebar a{
+   font-size:2em;
+   text-decoration: none;
+   line-height: 0.85em;
+   color: grey;
+   padding:0;
+ }
+ #sidebar ul{
+   list-style-type: none;
+ }
+ #sidebar li {
+   padding-bottom: 2em;
+   line-height: 1.5em;
+ }
+
+#next-previous a{
+  text-decoration: none;
+  font-size:1.2em;
+}
+#thought{
+  padding-top:1em;
+}
+ #full-name,#email{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/*-- 4 FOOTER STYLES --*/
+ #footer {
+   clear:both;
+   font-weight: bold;
+   padding-left: 1em;
+
+ }
+ #footer > .page-container {
+   padding:0.5em;
+ }
+ #footer a {
+   text-decoration:none;
+ }
