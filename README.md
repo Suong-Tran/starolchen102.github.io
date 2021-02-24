@@ -46,7 +46,7 @@
             unique hint of French cuisine. 10/10.</p>
           </div>
           <div id = "pizza-icecream">
-            <img src = "image/ice_cream_cookies.jpg" alt = "Photo of an appetizing pizza ice cream"
+            <img src = "ice_cream_cookies.jpg" alt = "Photo of an appetizing pizza ice cream"
             height = "600" title = "very yummy but a bit too fattening"/>
             <p>Got to try this out with a friend while searching for a place to hangout. It was an apple and vinilla ice cream pizza so it wasn't very sweet, which I prefer.
               However, the crust wasnt very crispy which makes it a bit less fun to eat. 8/10.</p>
