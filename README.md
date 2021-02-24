@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>Suong D. Tran</title>
     <meta name="description" content="My Blog">
-    <link rel="stylesheet" type="text/css" href="css/Assigment1.css">
+    <link rel="stylesheet" type="text/css" href="Assigment1.css">
   </head>
 
   <body>
