@@ -30,7 +30,7 @@
 
   <div class="page-container">
     <main id="main">
-      <img src = "image/cherry_blossom.jpg" alt = "Photo of a beautiful cherry blossom tree"
+      <img src = "cherry_blossom.jpg" alt = "Photo of a beautiful cherry blossom tree"
       height = "550" title = "a beautiful cherry blossom tree"/>
       <h1>SUONG'S JANUARY FAVORITE DESSERT</h1>
       <div id = "intro">
@@ -40,7 +40,7 @@
       <section id = "main-contain">
         <h2>JANUARY</h2>
         <div id = "matcha-crepe">
-          <img src = "image/matcha_crepe1.jpg" alt = "Photo of a delicious matcha crepe cake"
+          <img src = "matcha_crepe1.jpg" alt = "Photo of a delicious matcha crepe cake"
           height = "600" title = "a delicious matcha crepe cake"/>
           <p>This is my favorite dessert so far. With each bite, it brings out a Japanese taste with typical matcha powder & color while also having
             unique hint of French cuisine. 10/10.</p>
